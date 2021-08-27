@@ -8,9 +8,9 @@ int main(void)
 {
 int n, m;
 
-for (n = 48; n <= 58; n++)
+for (n = 48; n <= 56; n++)
 {
-for (m = 48; m <= 58; m++)
+for (m = 48; m <= 56; m++)
 {
 putchar(n);
 putchar(m);
