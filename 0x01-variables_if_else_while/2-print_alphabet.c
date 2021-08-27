@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
 * main - prints the last digit of the random
 * number stored in the variable n
@@ -8,7 +7,7 @@
 int main(void)
 {
 char ch;
- for (ch = 'a'; ch <= 'z'; ch++);
+for (ch = 'a'; ch <= 'z'; ch++);
 {
 putchar(ch);
 }
