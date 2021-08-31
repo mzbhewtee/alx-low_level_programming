@@ -1,16 +1,15 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <holberton.h>
 
-/* Program that prints holberton.c
-* followed by a new line
-* return value 0
+/** main - check the code for ALX School Student
+* 
+* return: always 0
 */
 
-int main()
+int main(void)
 {
 char ch = 'Holberton\n';
 
-putchar(ch);
+_putchar(ch);
 
 return (0);
 
