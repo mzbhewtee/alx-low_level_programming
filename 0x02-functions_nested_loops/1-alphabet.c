@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include "main.h"
 
 /**
 * main - check the code for ALX School Student
