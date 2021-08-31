@@ -1,21 +1,19 @@
-#include "holberton.h"
+#include "main.h"
 
-/** 
-* main - check the code for alx school students
-*
-*Return: Always 0
+/**
+* print_alphabet - prints the alphabet, in lowercase, followed by a new line
 */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
-  char ch;
-  int i = 0;
-  while(i<10)
-  {
-ch = 'a'
-  }
+char ch;
 
+ch = 'a';
 
+while (ch <= 'z')
+{
+_putchar(ch);
+ch++;
+}
 
-
-
+_putchar('\n');
 }
