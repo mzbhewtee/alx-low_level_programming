@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+/**
+* positive_or_negative - Determines if a number is positive, negative or zero.
+*@i: Integer to print
+* Return: Always 0 (Success)
+*/
