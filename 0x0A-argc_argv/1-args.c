@@ -5,14 +5,13 @@
 * followed by a new line
 * @argc: number of arguments
 * @argv:array of arguments
+* Return: Always 0 (success)
 */
 
-int main(int argc, char* agrv[]);
+int main(int argc, char* agrv[] __attribute__((unused)));
 {
-int i;
-for(i = 0; i < argc; i++)
-{
-printf("&s\n", argv[i]);
-}
+
+printf("%d\n", argc - 1);
+
 return 0;
 }
