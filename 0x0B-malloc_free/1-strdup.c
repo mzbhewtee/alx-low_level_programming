@@ -14,7 +14,8 @@ char *a;
 
 if (str == NULL)
 return (NULL);
-for (i = 0; str[i] != '\0'; i++);
+for (i = 0; str[i] != '\0'; i++)
+;
 a = (char *)malloc((i + 1) * sizeof(char));
 if (a == NULL)
 return (NULL);
